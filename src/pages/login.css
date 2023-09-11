@@ -1,0 +1,45 @@
+.login-page{
+    max-width: 16.8rem;
+    min-height: 22rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border: 0.1rem solid;
+    border-color: black;
+    border-radius: 0.5rem;
+    
+    padding: 1.2rem;
+}
+.input-wrapper > h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pass-input{
+    width: 12.5rem;
+    height: 1.7rem;
+    padding-left: 1rem;
+}
+.submit-button{
+    background-color: rgb(17, 155, 214);
+    color: white;
+    padding: 0.2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    width: 8rem;
+    height: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.success-text,.fail-text{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+}
