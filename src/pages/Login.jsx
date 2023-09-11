@@ -7,7 +7,6 @@ function LoginPage() {
 
   const handleClick = () => {
     let fail = document.getElementById("fail");
-    
     if (pass === import.meta.env.VITE_SECRET) {
         setSuccess(true);
         fail.style.display = "block";
