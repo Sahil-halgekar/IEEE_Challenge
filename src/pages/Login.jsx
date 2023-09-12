@@ -19,9 +19,9 @@ function LoginPage() {
     <>
       <main className="login-page">
         <div className="input-wrapper">
-          <h1 className="top-label">Ram Ram Bhai sarayane🙏</h1>
+          <h1 className="top-label">Enter the numbers that got you here</h1>
           <input
-            placeholder="Say the magic words"
+            placeholder="The Code"
             type="text"
             className="pass-input"
             onChange={(e) => setPass(e.target.value)}
@@ -33,16 +33,18 @@ function LoginPage() {
       </main>
       {success ? (
         <p className="success-text">
-          Frqjudwxodwlrqv Brx pdgh lw Rqh odvw vwhs dqg brx’oo eh wkurxjk Wkh
-          Fkdlu dqg Ylfh Fkdlu dzdlw brx
-          <br /> 
+          Congratulations!!
           <br />
-          &#40;the developer of this site loves Caesar salad with 3 batli
-          of vodka&#41;
+          Brx pdgh lw Rqh odvw vwhs dqg brx’oo eh wkurxjk Wkh Fkdlu dqg Ylfh
+          Fkdlu dzdlw brx
+          <br />
+          <br />
+          &#40;the developer of this site loves Caesar salad with 3 batli of
+          vodka&#41;
         </p>
       ) : (
         <p className="fail-text" style={{ display: "none" }} id="fail">
-          Sorry
+          Not the right code. Try again :&#40;
         </p>
       )}
     </>
